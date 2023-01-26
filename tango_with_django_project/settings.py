@@ -19,12 +19,11 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 STATIC_DIR = os.path.join(BASE_DIR, 'static')
 MEDIA_DIR = os.path.join(BASE_DIR, 'media')
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'f@xevaurygh*a0^$#0%y0r3xhbob2rz2n^y@afh-qfs(!$c$fs'
+SECRET_KEY = '&6-lp6$3(gur&(w(&i+lk34$2dcp0495o1b-boky2vl@k)&_x_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -131,6 +130,3 @@ STATIC_URL = '/static/'
 
 MEDIA_ROOT = MEDIA_DIR
 MEDIA_URL = '/media/'
-
-
-
